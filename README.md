@@ -32,8 +32,8 @@ A simple Linux-based GUI application built with Python and Tkinter to manage use
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/user-permissions-manager.git
-   cd user-permissions-manager
+   git clone https://github.com/Dharsan111/user-permissions-manager.git
+   
 2. **Make Bash Script Executable**
 
    ```bash
