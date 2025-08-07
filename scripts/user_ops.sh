@@ -17,7 +17,7 @@ case "$1" in
 		cut -d: -f1 /etc/passwd
 		;;
 	list_groups)
-		cut -d: f1 /etc/group
+		cut -d: -f1 /etc/group
 		;;
 	change_password)
 		echo "$2:$3" | sudo chpasswd && echo "Password changed for $2." || echo "Error changing Password"
