@@ -60,10 +60,10 @@ def add_user_to_group():
         show(run_script(["add_user_to_group", user, group]))
 
 def change_permissions():
-    filepath = simpledialog.askstring("Input", "Enter full path to file:")
-    permissions = simpledialog.askstring("Input", "Enter permissions (e.g. 755):")
+    filepath = simpledialog.askstring("Input", "Enter permissions (e.g. 755):")
+    permissions = simpledialog.askstring("Input", "Enter full path to file:")
     if filepath and permissions:
-        show(run_script(["change_permissions", filepath, permissions]))
+        show(run_script(["chmod", filepath, permissions]))
 
 def list_users(root):
     success, output = run_script(["list_users"])

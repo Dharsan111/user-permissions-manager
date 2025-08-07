@@ -28,9 +28,6 @@ case "$1" in
 	chmod)
 		sudo chmod "$2" "$3" && echo "Permissions set." || echo "Error setting Permissions."
 		;;
-	chown)
-		sudo chown "$2" "$3" && echo "Owner Changed." || echo "Error chaning Owner"
-		;;
 	*)
 		echo "Invalid Command."
 		exit 1
