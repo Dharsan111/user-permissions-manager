@@ -41,6 +41,6 @@ A simple Linux-based GUI application built with Python and Tkinter to manage use
 3. **Run the GUI using "sudo"**
 
    ```bash
-   sudo python3 gui,py
+   sudo python3 gui.py
 
 
